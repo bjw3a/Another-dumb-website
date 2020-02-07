@@ -1,0 +1,191 @@
+body{
+    background: linear-gradient( to right, rgb(17, 17, 145), rgb(109, 2, 2, 0) );
+    padding:0px;
+    margin:0;
+  
+
+}
+header{
+    background: radial-gradient(rgb(10, 0, 0), rgb(236, 4, 4));
+}
+  
+nav ul li {
+    display: inline-block;
+    padding:60px;
+   
+   
+    
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    
+    font-family: fantasy;
+    font-size: 25px;
+    color: white;
+   
+   
+}
+nav ul li:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+   
+}
+section{
+    background: linear-gradient(to right, red, black, white, 0 );
+
+}
+section a {
+    text-decoration: none;
+    color:white;
+}
+section a:hover{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+footer{
+    background: radial-gradient(red, blue);
+    font-family: cursive;
+    font-size: 20px;
+    color: darkmagenta;
+  
+    height: 300px;
+}
+.cats{
+    display: flex;
+    flex-direction: row;
+}
+.cats img {
+    border-radius: 50%;
+    border-style: solid;
+    border: solid black;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: auto
+  
+    
+/*  hit "command ?" to do this */
+/* like this  */
+
+}
+
+    
+
+/* this is a section .buttons */
+
+footer button{
+    background-color: red;
+    border-radius: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border: solid black;
+    border-width: 10px;
+   
+}
+.buttons button {
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    border-color: solid rgb(235, 11, 11);
+    width: 200px;
+    height:200px;
+    font-family: cursive;
+    font-size: larger;
+    position: relative;
+   
+    text-transform: uppercase;
+
+}
+.buttons h3 {
+    font-family: cursive;
+    font-size: 25px;
+    color: white;
+
+}
+.buttons h3 aside{
+
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+    margin:auto;
+
+}
+ 
+/* this is another section with nature pics */
+
+#nature img{
+    border-radius:50%;
+    border: solid black;
+    border-width: 30px;
+    width:700px;
+    height:500px;
+}
+#nature div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:500px;
+    left:900px;
+    font-family: fantasy;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-decoration-style: wavy;
+}
+
+/* nature_2 section */
+#nature_2 img{
+    border-radius: 50%;
+    border:solid black;
+
+}
+
+/* footer i gueses? */
+footer h5{
+    font-family: fantasy;
+    color:black;
+    font-size: 20px;
+    position: relative;
+    left:420px;
+
+}
+.bigboy button:hover{
+    text-decoration: none;
+}
+footer button:hover{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+/* lastpage.html */
+
+.turkey aside img{
+    position: relative;
+    top:400px;
+    right:500px;
+    border:none;
+
+}
+#diff{
+    font-family: fantasy;
+    font-size: 50px;
+    position: relative;
+    right:100px;
+}
+.turkey div{
+    display:flex;
+    flex-direction: column;
+    font-family: fantasy;
+    
+}
+.img_2 {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+/* next page */
+
+li a{
+    color:white;
+}

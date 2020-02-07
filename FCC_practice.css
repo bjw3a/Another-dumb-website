@@ -1,0 +1,29 @@
+body{
+/* regarding linear gradients, to right, to left, top right, to bottom right etc */
+/* when you use angles you can use -90 or something like that*/
+        background: linear-gradient(to top right, red, green, blue, grey);
+        background-size: cover;
+        /* you can use: these are absolute values, cm, mm, px, pc, (1 pc is 12 pt) pt(little bigger than pixel) */
+        font-size: larger;
+    
+}
+header{
+    color:white;
+    background-color: black;
+    
+}
+
+#nav {
+    /* you can change the shape of radial gradients, circle or elipse */
+    /* the % have to be in order, i.e. smallest at the start */
+    background: radial-gradient(rgb(104, 104, 236) rgb(233, 56, 56) rgb(7, 238, 7));
+    font-size: larger;
+    font-family: fantasy;
+    float:right;
+    position: relative;
+    bottom:800px;
+    left:-300px;
+}
+#nav ul li{
+    list-style-type: none;
+}
